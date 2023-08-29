@@ -147,6 +147,8 @@ console.log("bypass")
                     return (0, p.__generator)(this, function (u) {
                         switch (u.label) {
                         case 0:
+                                console.log(e)
+                                console.log(t)
                             return u.trys.push([0, 2, , 3]), [4, d(((o = {}).method = "post", o.url = "/lobby-api/report/withdrawal/100/".concat(r), o.headers = {
                                 "Agent-Code": e,
                                 Authorization: "Bearer " + t
